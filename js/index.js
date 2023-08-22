@@ -1,4 +1,3 @@
-
 document.getElementById("buttonText").addEventListener("click", function(){
     const textInput = document.getElementById("inputText").value;
         if (localStorage.getItem("array")){
