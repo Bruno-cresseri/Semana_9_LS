@@ -1,2 +1,2 @@
 const nodo = document.getElementById("data");
-nodo.innerHTML = localStorage.valor;
+nodo.innerHTML = JSON.parse(localStorage.array);
