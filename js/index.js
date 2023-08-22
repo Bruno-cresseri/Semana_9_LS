@@ -14,3 +14,7 @@ document.getElementById("buttonText").addEventListener("click", function(){
         document.getElementById("inputText").value = null;
     }
 );
+
+document.getElementById("buttonReset").addEventListener("click", function(){
+    localStorage.clear();
+})
